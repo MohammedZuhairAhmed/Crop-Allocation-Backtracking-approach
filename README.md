@@ -1,6 +1,13 @@
 # Crop Allocation Backtracking Approach
 
-This project implements a backtracking approach for crop allocation. It is designed to help optimize the allocation of different crops on a given farm, maximizing the overall yield while considering various constraints.
+This project implements a backtracking search algorithm to solve the crop allocation problem in Belagavi district, Karnataka, under the One-Taluk One-Crop Scheme. The goal is to assign four crop seeds (Jowar, Cotton, Maize, Paddy) to each Taluk in a way that ensures neighboring Taluks do not have the same crops to grow. This scheme is similar to the One District One Crop scheme of the state government of Karnataka.
+
+## Problem Statement
+
+The problem is to find an appropriate solution by implementing a backtracking search to distribute crop seeds to each Taluk in Belagavi district. The objective is to assign crops to each Taluk while satisfying the following conditions:
+
+- Each Taluk should be assigned one crop seed.
+- No neighboring Taluks should have the same crop assigned.
 
 ## Getting Started
 
@@ -47,7 +54,7 @@ To use the backtracking approach for crop allocation, follow these steps:
    python backtracking_search.py
    ```
 
-4. The script will output the optimized crop allocation for the given farm, considering the constraints and maximizing the overall yield.
+4. The script will output the optimized crop allocation for the given Taluks in Belagavi district, considering the constraints of no neighboring Taluks having the same crop assigned.
 
 ## Contributing
 
