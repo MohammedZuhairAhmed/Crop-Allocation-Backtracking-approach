@@ -11,7 +11,7 @@ The problem is to find an appropriate solution by implementing a backtracking se
 
 ## Getting Started
 
-To get started with this project, follow the instructions below.
+To get started with this project, make sure you have the `taluk_borders.shp` file, which contains the geographic information of the Taluk borders in Belagavi district.
 
 ### Prerequisites
 
@@ -44,17 +44,15 @@ Make sure you have the following prerequisites installed:
 
 To use the backtracking approach for crop allocation, follow these steps:
 
-1. Make sure you have the necessary input files for the farm and crop data. These files should be in a specific format (see `data/farm_data.csv` and `data/crop_data.csv` for examples).
+1. Make sure you have the `taluk_borders.shp` file, which contains the geographic information of the Taluk borders in Belagavi district.
 
-2. Adjust the parameters in the `backtracking_search.py` file according to your requirements.
-
-3. Run the `backtracking_search.py` script using the following command:
+2. Run the `backtracking_search.py` script using the following command:
 
    ```shell
    python backtracking_search.py
    ```
 
-4. The script will output the optimized crop allocation for the given Taluks in Belagavi district, considering the constraints of no neighboring Taluks having the same crop assigned.
+3. The script will output the optimized crop allocation for the given Taluks in Belagavi district, considering the constraints of no neighboring Taluks having the same crop assigned.
 
 ## Contributing
 
